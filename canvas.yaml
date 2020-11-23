@@ -1,0 +1,27 @@
+preset: package
+
+namespace: MyNetworkTech\Freeradius
+user-auth-provider: App\User
+
+paths:
+  src: src
+  resource: resources
+
+factory:
+  path: database/factories
+
+migration:
+  path: database/migrations
+  prefix: ''
+
+console:
+  namespace: MyNetworkTech\Freeradius\Console
+
+model:
+  namespace: MyNetworkTech\Freeradius
+
+provider:
+  namespace: MyNetworkTech\Freeradius\Providers
+
+testing:
+  namespace: MyNetworkTech\Freeradius\Tests
