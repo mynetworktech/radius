@@ -18,6 +18,13 @@
       "MyNetworkTech\\Radius\\": "src/"
     }
   },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "MyNetworkTech\\Radius\\RadiusServiceProvider"
+      ]
+    }
+  },
   "minimum-stability": "dev",
   "prefer-stable": true
 }
